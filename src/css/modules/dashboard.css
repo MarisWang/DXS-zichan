@@ -1,0 +1,231 @@
+@charset "UTF-8";
+.mainContent .ant-breadcrumb {
+    text-align: left;
+}
+
+.mainContent .ant-breadcrumb span,
+.mainContent .ant-breadcrumb a {
+    color: white;
+}
+
+.dashboard-wrapper.displayflexbetween {
+    padding: 20px 10px;
+    flex-flow: row wrap;
+    align-items: flex-start;
+}
+
+.dashboard-wrapper .wrapper-left,
+.dashboard-wrapper .wrapper-right {
+    width: 49%;
+    min-width: 550px;
+    align-items: stretch;
+}
+
+.dashboard-wrapper .wrapper-left ul li {
+    width: 42%;
+    min-width: 245px;
+    flex-flow: row wrap;
+    border: #00586c 1px solid;
+    border-radius: 15px;
+    margin: 10px auto;
+    background: rgba(0, 54, 75, 0.8);
+}
+
+.dashboard-wrapper .wrapper-left h4 {
+    line-height: 45px;
+    border-bottom: #00586c 1px solid;
+    color: #c3c3c3;
+    text-align: left;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.dashboard-wrapper .wrapper-left ul li .displayflexbetween {
+    align-items: center;
+    height: 105px;
+    padding: 0 20px;
+}
+
+.dashboard-wrapper ul li .displayflexbetween img {
+    width: 50px;
+}
+
+.dashboard-wrapper ul li .displayflexbetween h1 {
+    color: #aaaaaa;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.pieCharts-wrapper {
+    width: 92%;
+    border: #00586c 1px solid;
+    border-radius: 15px;
+    margin: 10px auto;
+    background: rgba(0, 54, 75, 0.8);
+}
+
+.pieCharts-wrapper h5 {
+    color: #c3c3c3;
+    font-size: 24px;
+}
+
+.pieCharts-wrapper p {
+    color: #c3c3c3;
+}
+
+/**dashboard**/
+.semi-circle {
+    width: 160px;
+    height: 160px;
+    border: 12px solid #E2E2E2;
+    border-radius: 50%;
+    overflow: hidden;
+    transform: rotate(180deg);
+    margin: 20px;
+}
+
+.border_orange {
+    width: 200%;
+    background: #F5852E;
+    animation: myfirst 10s infinite;
+    -moz-animation: myfirst 10s infinite; /* Firefox */
+    -webkit-animation: myfirst 10s infinite; /* Safari and Chrome */
+    -o-animation: myfirst 10s infinite; /* Opera */
+}
+
+.border_blue {
+    width: 200%;
+    background: #00B6CD;
+    animation: myfirst 15s infinite;
+    -moz-animation: myfirst 15s infinite; /* Firefox */
+    -webkit-animation: myfirst 15s infinite; /* Safari and Chrome */
+    -o-animation: myfirst 15s infinite; /* Opera */
+}
+
+@keyframes myfirst {
+    0% {
+        height: 0;
+    }
+    50% {
+        height: 65%;
+    }
+    100% {
+        height: 0;
+    }
+}
+
+@-webkit-keyframes myfirst { /* Safari 与 Chrome */
+    0% {
+        height: 0;
+    }
+    50% {
+        height: 65%;
+    }
+    100% {
+        height: 0;
+    }
+}
+
+.wrapper .wrapper-right h4 {
+    color: #aaaaaa;
+    font-size: 24px;
+    text-align: left;
+    line-height: 45px;
+    padding-left: 15px;
+    border-bottom: #00586c 1px solid;
+}
+
+.wrapper .wrapper-right h3 {
+    text-align: center;
+}
+
+#container {
+    position: relative;
+    left: 0;
+    top: -20px;
+}
+
+.charts-wrapper {
+    border: #00586c 1px solid;
+    border-radius: 15px;
+    margin: 10px auto;
+    background: rgba(0, 54, 75, 0.8);
+}
+
+.wrapper-right .legend {
+    margin-top: -30px;
+}
+
+.wrapper-right .legend li {
+    color: #c3c3c3;
+    margin: 0 15px;
+}
+
+.wrapper-right .legend li span {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.wrapper-right .legend li:nth-child(1) span {
+    background: #B28549;
+}
+
+.wrapper-right .legend li:nth-child(2) span {
+    background: #A27597;
+}
+
+.wrapper-right .legend li:nth-child(3) span {
+    background: #007F90;
+}
+
+.wrapper-right h5,
+.wrapper-right p {
+    color: #c3c3c3;
+    text-align: right;
+    padding: 0 40px;
+}
+
+.wrapper-right h5 {
+    font-size: 18px;
+}
+
+.wrapper-right .visiters {
+    margin-top: 20px;
+    align-items: flex-start;
+}
+
+.wrapper-right .visiters li {
+    width: 32%;
+    border: #00586c 1px solid;
+    border-radius: 15px;
+    background: rgba(0, 54, 75, 0.8);
+    min-width: 240px;
+    color: #9a9a9a;
+    padding-bottom: 15px;
+}
+
+.wrapper-right .visiters li h4 {
+    font-size: 16px;
+}
+
+.wrapper-right .visiters li img {
+    margin: 15px auto;
+}
+
+.wrapper-right .visiters li h3 {
+    color: #c3c3c3;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.wrapper-right .visiters li h5 {
+    color: #c3c3c3;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.wrapper-right .visiters li h6 {
+    color: #c3c3c3;
+}

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+.wrapper .viewTree {
+    position: relative;
+}
+.ant-popover .ant-popover-inner-content p{
+    cursor: pointer;
+    padding: 10px 0;
+    width: 100%;
+    margin-bottom: 0;
+}
+.ant-popover .ant-popover-inner-content p:hover{
+    color: #40a9ff;
+}
+.ant-popover .ant-popover-inner-content p.hr-line{
+    border-top: 1px solid #0074a6;
+}

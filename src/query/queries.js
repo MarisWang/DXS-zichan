@@ -1,0 +1,1 @@
+/**query for login**/export const loginQuety =`query($varis:argsCheckUserType){  checkAdminUser(input:$varis){    data{      token avatar id email firstname lastname    }     success message  }}`;

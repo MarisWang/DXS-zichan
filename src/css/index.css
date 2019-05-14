@@ -1,0 +1,119 @@
+@charset "UTF-8";
+@import "../css/modules/dashboard.css";
+@import "../css/modules/assets/asset.css";
+@import "../css/modules/user/user.css";
+@import "../css/login.css";
+@import "../styles/antdesign.css";
+
+.mainContent{
+    width: 100vw;
+    background: url("../images/7a1bbe4ffac92de8993218f0e3d948f4.jpg");
+    background-size: cover;
+}
+.mainContent .sidebar{
+    /*width: 270px;*/
+    height: 100vh;
+    background: rgba(0, 54, 75, 0.8);
+}
+.mainContent .layout{
+    /*width: calc(100vw - 280px);*/
+    height: 100vh;
+    overflow-y: scroll;
+}
+.sidebar .logoContent {
+    padding: 30px 15px;
+}
+
+.sidebar .logoContent h1 {
+    color: #9e9e9e;
+}
+
+.sidebar .logoContent .anticon-bars {
+    color: #00ceea;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.sidebar ul li {
+    text-align: left;
+    cursor: pointer;
+    line-height: 45px;
+    padding-left:15px;
+    color: #e0e0e0;
+    position: relative;
+    font-size: 16px;
+}
+
+.sidebar ul li:hover {
+    background: rgba(0, 83, 116, 0.8);
+}
+
+.sidebar ul li .anticon {
+    margin-right: 10px;
+    color: #00a1bb;
+}
+
+.sidebar ul li .anticon-right {
+    width: 50px;
+    float: right;
+    line-height: 45px;
+    color: #e0e0e0;
+    margin-right: 0;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    right: -160px;
+    top: 0;
+    background: rgba(0, 83, 116, 0.8);
+    z-index: 10;
+}
+
+.submenu a {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    min-width: 160px;
+    padding:0 30px;
+}
+.submenu a:hover{
+    background: rgba(0, 107, 145, 0.9);
+}
+.sidebar ul .menulist:hover .submenu {
+    display: block;
+}
+
+.layout .layout-header,
+.layout .layout-content,
+.layout .layout-footer {
+    background: rgba(0, 54, 75, 0.8);
+    padding: 10px 20px;
+}
+
+.layout .layout-content {
+    margin: 5px 0;
+}
+
+.displayflexend.layout-header {
+    color: #9e9e9e;
+}
+
+.anticon-caret-down {
+    cursor: pointer;
+}
+
+.layout .layout-footer {
+    color: #9e9e9e;
+}
+
+.wrapper{
+    padding:10px;
+    background: rgba(0,21,41,0);
+    min-height: calc(100vh - 70px);
+}
+.wrapper h3{
+    text-align: left;
+    padding-bottom: 15px;
+    color: #9e9e9e;
+}
